@@ -3,6 +3,7 @@ import './App.css';
 import Child from './components/child';
 import State from './components/state';
 import NameState from './components/nameState'; 
+import Map from './components/map';
 
 function PersonInfo(){
   return (
@@ -51,6 +52,13 @@ function App() {
       <div>
         <State/>
         <NameState/>
+      </div>
+
+      {/* {using map component} */}
+      <div>
+        <Map
+        text="This is a map component"
+        />
       </div>
     </div>
   );

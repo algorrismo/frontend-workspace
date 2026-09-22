@@ -8,6 +8,7 @@ const State = () => {
         setCount(count+1)
     }
 
+    // to test the current user email 
     function decrementCount(){
 
         if(count > 0)

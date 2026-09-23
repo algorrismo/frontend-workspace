@@ -8,11 +8,11 @@ const State = () => {
     //     setCount(count+1)
     // }
 
-    // function decrementCount(){
+    function decrementCount(){
 
-    //     if(count > 0)
-    //         setCount(count-1)
-    // }
+        if(count > 0)
+            setCount(count-1)
+    }
 
 
     return (
@@ -30,7 +30,7 @@ const State = () => {
                 <div className='flex justify-center gap-5 mt-5'>
                     <button onClick={()=> setCount(count+1)} className='bg-green-800 p-2 w-12'>+1
                     </button>
-                    <button onClick={()=> setCount(count-1)} className='bg-red-800 p-2 w-12'>-1
+                    <button onClick={decrementCount} className='bg-red-800 p-2 w-12'>-1
                     </button>
                 </div>
             </div>

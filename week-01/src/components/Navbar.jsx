@@ -1,32 +1,44 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
-
-    const navItems = [
-        { to: '/', label: 'Home' },
-        { to: '/child-components', label: 'Child Components' },
-        { to: '/react-usestate', label: 'React useState' },
-        { to: '/map-filter', label: 'Map/Filter' },
-        { to: '/fake-api', label: 'Fake API' },
-    ];
-
     return (
-        <nav className='bg-gray-900 p-4 flex justify-center gap-6 flex-wrap sticky top-0 z-50'>
-            {navItems.map((item) => (
-                <NavLink
-                    key={item.to}
-                    to={item.to}
-                    end={item.to === '/'}
-                    className={({ isActive }) =>
-                        isActive
-                            ? 'text-lg font-bold text-orange-400 border-b-2 border-orange-400 pb-1'
-                            : 'text-lg font-bold text-white hover:text-orange-300 pb-1'
-                    }
-                >
-                    {item.label}
-                </NavLink>
-            ))}
+        <nav className="flex items-center justify-between px-8 py-4 bg-gray-900 text-white">
+
+            {/* Logo */}
+            <Link to="/" className="text-2xl font-bold hover:text-blue-400">
+                MyWebsite
+            </Link>
+
+            {/* Navigation Links */}
+            <div className="flex gap-6">
+                
+                <Link to="/HomePage.jsx" className="hover:text-blue-400">
+                    Home
+                </Link>
+
+                <Link to="/use-state" className="hover:text-blue-400">
+                    useState
+                </Link>
+
+                <Link to="/map" className="hover:text-blue-400">
+                    Map
+                </Link>
+
+                <Link to="/filter" className="hover:text-blue-400">
+                    Filter
+                </Link>
+
+                <Link to="/about" className="hover:text-blue-400">
+                    About
+                </Link>
+
+                <Link to="/contact" className="hover:text-blue-400">
+                    Contact
+                </Link>
+                
+                
+            </div>
         </nav>
     );
 };

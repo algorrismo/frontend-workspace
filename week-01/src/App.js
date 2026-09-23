@@ -4,6 +4,7 @@ import Child from './components/child';
 import State from './components/state';
 import NameState from './components/nameState'; 
 import Map from './components/map';
+import Filter from './components/filter';
 
 function PersonInfo(){
   return (
@@ -20,8 +21,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className='bg-whitehite text-2xl text-orange-400 text-center mt-7'>This is week-01 </h1>
-      <h1 className="text-xl text-center text-blue-200`">This is parent component</h1>
+      <h1 className='bg-white text-2xl text-orange-400 text-center mt-7'>This is week-01 </h1>
+      <h1 className="text-xl text-center text-blue-200">This is parent component</h1>
       <header className="App-header">
         <p className ="text-white text-5xl font-bold bg-green-900">
           Ismail Hossain Fahim
@@ -58,6 +59,13 @@ function App() {
       <div>
         <Map
         text="This is a map component"
+        />
+      </div>
+
+      {/* this is filter component */}
+      <div>
+        <Filter
+        text="This is a filter component"
         />
       </div>
     </div>

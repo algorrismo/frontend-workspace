@@ -23,7 +23,7 @@ const Map = ({text}) => {
                 ))}
             </div>
             
-            {/* if index dose not containes  */}
+            {/* if index dose not containes 0 */}
             {/* <div className='grid grid-cols-2'>
                 {students.map((student, index) => (
                     <div key={index}>

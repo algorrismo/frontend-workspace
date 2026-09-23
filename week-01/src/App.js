@@ -1,79 +1,21 @@
-// import logo from './logo.svg';
 import './App.css';
-import Child from './components/child';
-import State from './components/state';
-import NameState from './components/nameState';
-import Map from './components/map';
-import Filter from './components/filter';
-import Apiholder from './apiholder';
+import { Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import ChildComponents from './pages/ChildComponents';
+import UseStatePage from './pages/UseStatePage';
+import MapFilter from './pages/MapFilter';
+import FakeApi from './pages/FakeApi';
 
-function PersonInfo(){
-  return (
-    <p className="text-2xl text-white font-bold text-center">
-      SWE
-    </p>
-  );
-}
-
-// function
 function App() {
-
-  const userName = "Ismail Hossain Fahim";
-
   return (
     <div className="App">
-      <h1 className='bg-white text-2xl text-orange-400 text-center mt-7'>This is week-01 </h1>
-      <h1 className="text-xl text-center text-blue-200">This is parent component</h1>
-      <header className="App-header">
-        <p className ="text-white text-5xl font-bold bg-green-900">
-          Ismail Hossain Fahim
-        </p>
-          <p className ="text-white text-2xl font-bold bg-red-300">
-         Hello {userName}
-        </p>
-
-        {/* {using PersonInfo component} */}
-        <PersonInfo/>
-
-        <p className="text-2xl text-white font-bold text-center">
-          23-50009-1
-        </p>
-      </header>
-
-        {/* sending data to child component */}
-      <div>
-          <Child
-          textColor =" text-center text-5xl text-pink-500"
-          heading="Hello from child component"
-          headingColor ="text-2xl text-white font-bold text-center"
-
-          />
-      </div>
-
-      {/* {using state component} */}
-      <div>
-        <State/>
-        <NameState/>
-      </div>
-
-      {/* {using map component} */}
-      <div>
-        <Map
-        text="This is a map component"
-        />
-      </div>
-
-      {/* this is filter component */}
-      <div>
-        <Filter
-        text="This is a filter component"
-        />
-      </div>
-
-      {/* loding fake api  */}
-      <div>
-        <Apiholder text="This is a fake API component"/>
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/child-components" element={<ChildComponents />} />
+        <Route path="/react-usestate" element={<UseStatePage />} />
+        <Route path="/map-filter" element={<MapFilter />} />
+        <Route path="/fake-api" element={<FakeApi />} />
+      </Routes>
     </div>
   );
 }

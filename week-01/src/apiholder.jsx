@@ -8,6 +8,7 @@ const Apiholder = ({text}) => {
 
     //array to hold the data fetched from the API
     const [data, setData] = useState([]); 
+    const [loading, setLoding] =useState(true);
 
     useEffect(()=>{
         fetch('https://dummyjson.com/posts')
@@ -15,6 +16,7 @@ const Apiholder = ({text}) => {
         .then((json) => {
             // console.log(json);
             setData(json.posts);
+            setLoding(false);
         })
         .catch((error) => {
             console.error('Error fetching data:', error);
@@ -30,15 +32,26 @@ const Apiholder = ({text}) => {
             <div>
                 <p className='text-2xl font-bold text-orange-400'>There are {data.length} posts</p>
 
-                <div className='grid grid-cols-3 gap-5 mt-5'>
-                    {
-                        data.map((posts,index)=>{
-                            return <Apiloader key={index} 
-                            post={posts} />;
-                        })
-                    }
+                {/* //* conditional rendering w/ cleaner syntax based on loading state */}
+                {
+                    loading ? 
+                    (
+                        <div className='text-center'>
+                            <p className='text-2xl text-white'>Loading...</p>
+                        </div>
+                    ) :
+                    (
+                        <div className='grid grid-cols-3 gap-5 mt-5'>
+                            {
+                                data.map((posts,index)=>{
+                                    return <Apiloader key={index} 
+                                    post={posts} />;
+                                })
+                            }
+                        </div>
+                    )
+                }
 
-                </div>
             </div>
         </div>
     );

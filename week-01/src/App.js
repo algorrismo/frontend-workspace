@@ -1,23 +1,25 @@
+// import logo from './logo.svg';
 import './App.css';
-import { Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import ChildComponents from './pages/ChildComponents';
-import UseStatePage from './pages/UseStatePage';
-import MapFilter from './pages/MapFilter';
-import FakeApi from './pages/FakeApi';
+// import Child from './components/child';
+// import State from './components/state';
+// import NameState from './components/nameState';
+// import Map from './components/map';
+// import Filter from './components/filter';
+// import Apiholder from './apiholder';
+// import HomePage from './components/HomePage';
+import Navbar from './components/Navbar';
 
+
+// function
 function App() {
+
+
   return (
     <div className="App">
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/child-components" element={<ChildComponents />} />
-        <Route path="/react-usestate" element={<UseStatePage />} />
-        <Route path="/map-filter" element={<MapFilter />} />
-        <Route path="/fake-api" element={<FakeApi />} />
-      </Routes>
+      <Navbar/>
+      {/* <HomePage /> */}
     </div>
-  );
+  )
 }
 
 export default App;

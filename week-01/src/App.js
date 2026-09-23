@@ -2,9 +2,10 @@
 import './App.css';
 import Child from './components/child';
 import State from './components/state';
-import NameState from './components/nameState'; 
+import NameState from './components/nameState';
 import Map from './components/map';
 import Filter from './components/filter';
+import Apiholder from './apiholder';
 
 function PersonInfo(){
   return (
@@ -14,7 +15,7 @@ function PersonInfo(){
   );
 }
 
-// function 
+// function
 function App() {
 
   const userName = "Ismail Hossain Fahim";
@@ -33,7 +34,7 @@ function App() {
 
         {/* {using PersonInfo component} */}
         <PersonInfo/>
-        
+
         <p className="text-2xl text-white font-bold text-center">
           23-50009-1
         </p>
@@ -45,7 +46,7 @@ function App() {
           textColor =" text-center text-5xl text-pink-500"
           heading="Hello from child component"
           headingColor ="text-2xl text-white font-bold text-center"
-          
+
           />
       </div>
 
@@ -67,6 +68,11 @@ function App() {
         <Filter
         text="This is a filter component"
         />
+      </div>
+
+      {/* loding fake api  */}
+      <div>
+        <Apiholder text="This is a fake API component"/>
       </div>
     </div>
   );

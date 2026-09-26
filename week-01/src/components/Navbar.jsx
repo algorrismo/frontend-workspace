@@ -12,7 +12,7 @@ const Navbar = () => {
 
             {/* Navigation Links */}
             <div className="flex gap-6">
-                
+
                 <Link to="/HomePage.jsx" className="hover:text-blue-400">
                     Home
                 </Link>
@@ -36,8 +36,8 @@ const Navbar = () => {
                 <Link to="/contact" className="hover:text-blue-400">
                     Contact
                 </Link>
-                
-                
+
+
             </div>
         </nav>
     );

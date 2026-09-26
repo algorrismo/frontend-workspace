@@ -58,10 +58,10 @@ const Filter = ({ text }) => {
                     </p>
                 ) : (
                     filteredStudentNames.map((studentName, index) => (
-                        <p 
-                            key={index} 
+                        <p
+                            key={index}
                             className="text-xl text-blue-300 font-bold text-center">
-                                
+
                             {studentName}
                         </p>
                     ))

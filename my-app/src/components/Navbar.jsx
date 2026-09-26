@@ -7,7 +7,7 @@ const Navbar = () => {
 
             <navbar className='flex justify-center items-center space-x-4'>
                 <Link href='/students' className='hover:text-gray-400'>Students</Link>
-                <Link href='/bloglist' className='hover:text-gray-400'>Blogs</Link>
+                {/* <Link href='/bloglist' className='hover:text-gray-400'>Blogs</Link> */}
                 <Link href='/blog' className='hover:text-gray-400'>Blog</Link>
                 <Link href='/contact' className='hover:text-gray-400'>Contact</Link>
                 <Link href='/about' className='hover:text-gray-400'>About</Link>

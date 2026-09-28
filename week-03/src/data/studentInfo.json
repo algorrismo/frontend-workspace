@@ -1,0 +1,272 @@
+[
+	{
+		"id": 1,
+		"name": "Amina Rahman",
+        "slug": "amina-rahman",
+		"university": "North South University",
+		"contactNumber": "+880 1712-345601",
+		"address": "Dhanmondi, Dhaka",
+		"about": "Amina is a computer science student who enjoys building accessible web applications for local communities. She is currently learning user research, interface design, and modern JavaScript frameworks. Her long-term goal is to create digital services that are easy for people with different abilities to use."
+	},
+	{
+		"id": 2,
+		"name": "Tanvir Hossain",
+        "slug": "tanvir-hossain",
+		"university": "BRAC University",
+		"contactNumber": "+880 1812-456702",
+		"address": "Uttara, Dhaka",
+		"about": "Tanvir is interested in data science and spends his free time turning public datasets into useful visual stories. He recently started studying statistics and machine learning through small independent projects. He hopes to use evidence-based analysis to help organizations make better decisions."
+	},
+	{
+		"id": 3,
+		"name": "Nusrat Jahan",
+        "slug": "nusrat-jahan",
+		"university": "University of Dhaka",
+		"contactNumber": "+880 1912-567803",
+		"address": "Rajshahi City, Rajshahi",
+		"about": "Nusrat studies economics and volunteers with a student organization that teaches financial literacy. She enjoys comparing how families manage savings, expenses, and unexpected costs. After graduation, she wants to work on programs that make financial planning more accessible to young adults."
+	},
+	{
+		"id": 4,
+		"name": "Fahim Ahmed",
+        "slug": "fahim-ahmed",
+		"university": "Chittagong University of Engineering and Technology",
+		"contactNumber": "+880 1612-678904",
+		"address": "Panchlaish, Chattogram",
+		"about": "Fahim is an electrical engineering student who likes designing energy-efficient devices and repairing old radios. He spends time learning about circuits, renewable power, and practical electronics through hands-on experiments. His ambition is to design affordable technology for homes with unreliable electricity."
+	},
+	{
+		"id": 5,
+		"name": "Sadia Islam",  
+        "slug": "sadia-islam",
+		"university": "Jahangirnagar University",
+		"contactNumber": "+880 1512-789005",
+		"address": "Savar, Dhaka",
+		"about": "Sadia studies environmental science and documents native plants through photography and field notes. Her coursework has made her especially curious about wetlands, soil health, and urban pollution. She hopes to combine environmental education with community conservation projects in the future."
+	},
+	{
+		"id": 6,
+		"name": "Rafiul Karim",
+        "slug": "rafiul-karim",
+		"university": "Khulna University of Engineering and Technology",
+		"contactNumber": "+880 1713-890106",
+		"address": "Sonadanga, Khulna",
+		"about": "Rafiul is a mechanical engineering student who hopes to develop affordable agricultural machinery. He enjoys understanding how engines, gears, and automated tools can reduce difficult physical work. His current interest is creating simple equipment that small farmers can maintain without expensive repairs."
+	},
+	{
+		"id": 7,
+		"name": "Maliha Chowdhury",
+        "slug": "maliha-chowdhury",
+		"university": "East West University",
+		"contactNumber": "+880 1813-901207",
+		"address": "Mirpur, Dhaka",
+		"about": "Maliha studies business administration and runs a small campus project selling handmade stationery. Managing orders has helped her practice budgeting, customer service, and social media marketing. She plans to grow the project into a responsible brand that supports local artists."
+	},
+	{
+		"id": 8,
+		"name": "Imran Kabir",
+		"slug": "imran-kabir",
+		"university": "Rajshahi University",
+		"contactNumber": "+880 1913-012308",
+		"address": "Boalia, Rajshahi",
+		"about": "Imran is majoring in physics and enjoys explaining difficult concepts through short educational videos. He is particularly fascinated by motion, astronomy, and the physics behind everyday machines. He wants to become a teacher who makes science feel practical and welcoming to beginners."
+	},
+	{
+		"id": 9,
+		"name": "Jannatul Ferdous",
+		"slug": "jannatul-ferdous",
+		"university": "Ahsanullah University of Science and Technology",
+		"contactNumber": "+880 1613-123409",
+		"address": "Wari, Dhaka",
+		"about": "Jannatul studies architecture and combines traditional Bengali patterns with sustainable modern design. She is researching how natural ventilation and locally sourced materials can make buildings more comfortable. Her dream is to design public spaces that reflect local culture while using fewer resources."
+	},
+	{
+		"id": 10,
+		"name": "Sakib Hasan",
+		"slug": "sakib-hasan",
+		"university": "Islamic University of Technology",
+		"contactNumber": "+880 1513-234510",
+		"address": "Gazipur Sadar, Gazipur",
+		"about": "Sakib is studying software engineering and contributes bug fixes to beginner-friendly open-source projects. He enjoys learning about testing, clean code, and how teams collaborate through version control. He hopes to build reliable software that solves real problems for schools and small businesses."
+	},
+	{
+		"id": 11,
+		"name": "Tasmia Akter",
+		"slug": "tasmia-akter",
+		"university": "Shahjalal University of Science and Technology",
+		"contactNumber": "+880 1714-345611",
+		"address": "Amberkhana, Sylhet",
+		"about": "Tasmia studies biotechnology and is researching natural methods for improving crop resilience. She is fascinated by plant biology, laboratory techniques, and the relationship between soil organisms and healthy harvests. Her goal is to support sustainable farming research that benefits rural communities."
+	},
+	{
+		"id": 12,
+		"name": "Arif Mahmud",
+		"slug": "arif-mahmud",
+		"university": "American International University-Bangladesh",
+		"contactNumber": "+880 1814-456712",
+		"address": "Bashundhara, Dhaka",
+		"about": "Arif is passionate about mobile app development and recently created a study planner for classmates. He likes solving everyday problems with simple interfaces and thoughtful notifications. He is working toward becoming a product developer who can take an idea from early sketches to a useful finished app."
+	},
+	{
+		"id": 13,
+		"name": "Mehjabin Sultana",
+		"slug": "mehjabin-sultana",
+		"university": "Comilla University",
+		"contactNumber": "+880 1914-567813",
+		"address": "Kandirpar, Cumilla",
+		"about": "Mehjabin studies sociology and interviews young entrepreneurs about changing work opportunities. She enjoys listening to personal experiences and connecting them with larger social trends. Her research interests include youth employment, family businesses, and the effect of technology on local communities."
+	},
+	{
+		"id": 14,
+		"name": "Nayeem Hasan",
+		"slug": "nayeem-hasan",
+		"university": "Daffodil International University",
+		"contactNumber": "+880 1614-678914",
+		"address": "Ashulia, Dhaka",
+		"about": "Nayeem is learning cybersecurity and helps his university club organize ethical hacking workshops. He is developing skills in network security, secure authentication, and responsible vulnerability testing. He hopes to help organizations protect personal information through practical and ethical security work."
+	},
+	{
+		"id": 15,
+		"name": "Farzana Yasmin",
+		"slug": "farzana-yasmin",
+		"university": "Begum Rokeya University",
+		"contactNumber": "+880 1514-789015",
+		"address": "Modern Mor, Rangpur",
+		"about": "Farzana studies English literature and hosts a reading circle focused on contemporary South Asian writers. She enjoys exploring how novels represent memory, identity, and changes in society. She would like to work in publishing or education and help more students discover meaningful books."
+	},
+	{
+		"id": 16,
+		"name": "Shuvo Das",
+		"slug": "shuvo-das",
+		"university": "University of Chittagong",
+		"contactNumber": "+880 1715-890116",
+		"address": "Halishahar, Chattogram",
+		"about": "Shuvo is a marine biology student who surveys coastal habitats during university field trips. He is especially interested in coral life, fish populations, and the effects of plastic waste on waterways. His future plan is to support coastal research and public awareness about protecting marine ecosystems."
+	},
+	{
+		"id": 17,
+		"name": "Rumana Haque",
+		"slug": "rumana-haque",
+		"university": "Stamford University Bangladesh",
+		"contactNumber": "+880 1815-901217",
+		"address": "Moghbazar, Dhaka",
+		"about": "Rumana studies media and communication and produces short documentaries about everyday city life. She prefers patient interviews that allow people to explain their experiences in their own words. She hopes to create honest visual stories that encourage thoughtful conversations about urban life."
+	},
+	{
+		"id": 18,
+		"name": "Adnan Chowdhury",
+		"slug": "adnan-chowdhury",
+		"university": "United International University",
+		"contactNumber": "+880 1915-012318",
+		"address": "Badda, Dhaka",
+		"about": "Adnan is studying computer engineering and enjoys experimenting with small robotics projects. He has built simple sensor-based prototypes to learn how hardware and software work together. His ambition is to develop assistive robots that make difficult tasks safer and more manageable."
+	},
+	{
+		"id": 19,
+		"name": "Mim Akter",
+		"slug": "mim-akter",
+		"university": "Patuakhali Science and Technology University",
+		"contactNumber": "+880 1615-123419",
+		"address": "Dumki, Patuakhali",
+		"about": "Mim studies fisheries and wants to help coastal families adopt more sustainable farming practices. She is learning about aquatic ecosystems, fish nutrition, and responsible pond management. She hopes her future work will improve both food security and the health of local waterways."
+	},
+	{
+		"id": 20,
+		"name": "Rakibul Islam",
+		"slug": "rakibul-islam",
+		"university": "National University Bangladesh",
+		"contactNumber": "+880 1515-234520",
+		"address": "Sadar, Mymensingh",
+		"about": "Rakibul is studying accounting and supports a family business by improving its inventory records. He enjoys finding clear ways to organize receipts, cash flow, and monthly reports. His goal is to help small businesses become more stable through accurate financial planning."
+	},
+	{
+		"id": 21,
+		"name": "Lamia Nawar",
+		"slug": "lamia-nawar",
+		"university": "Independent University Bangladesh",
+		"contactNumber": "+880 1716-345621",
+		"address": "Gulshan, Dhaka",
+		"about": "Lamia studies international relations and follows regional diplomacy through student debate events. She is interested in migration, climate cooperation, and the role of young people in peacebuilding. She hopes to contribute to research that helps countries work together on shared challenges."
+	},
+	{
+		"id": 22,
+		"name": "Mahadi Hasan",
+		"slug": "mahadi-hasan",
+		"university": "Bangladesh University of Professionals",
+		"contactNumber": "+880 1816-456722",
+		"address": "Mirpur Cantonment, Dhaka",
+		"about": "Mahadi is majoring in management and coordinates peer mentoring sessions for first-year students. Organizing these sessions has taught him how to plan schedules, delegate responsibilities, and support different learning styles. He wants to build a career in people-focused leadership and organizational development."
+	},
+	{
+		"id": 23,
+		"name": "Sanjida Noor",
+		"slug": "sanjida-noor",
+		"university": "University of Barishal",
+		"contactNumber": "+880 1916-567823",
+		"address": "Nathullabad, Barishal",
+		"about": "Sanjida studies public administration and is interested in making local government services easier to access. She researches how clear communication and simple digital systems can save citizens time. Her goal is to help public institutions become more transparent, responsive, and inclusive."
+	},
+	{
+		"id": 24,
+		"name": "Tahmid Reza",
+		"slug": "tahmid-reza",
+		"university": "Mawlana Bhashani Science and Technology University",
+		"contactNumber": "+880 1616-678924",
+		"address": "Santosh, Tangail",
+		"about": "Tahmid studies information technology and builds small tools that automate repetitive student tasks. He enjoys working with databases, scripting, and practical troubleshooting. He hopes to become a systems specialist who makes everyday workflows faster without making them harder to understand."
+	},
+	{
+		"id": 25,
+		"name": "Ishrat Jahan",
+		"slug": "ishrat-jahan",
+		"university": "Green University of Bangladesh",
+		"contactNumber": "+880 1516-789025",
+		"address": "Purbachal, Dhaka",
+		"about": "Ishrat is studying textile engineering and explores eco-friendly dyes made from locally available materials. She is curious about fabric durability, efficient production, and reducing chemical waste. Her long-term goal is to help the clothing industry adopt cleaner methods while preserving quality and local craftsmanship."
+	},
+	{
+		"id": 26,
+		"name": "Siam Ahmed",
+		"slug": "siam-ahmed",
+		"university": "Hajee Mohammad Danesh Science and Technology University",
+		"contactNumber": "+880 1717-890126",
+		"address": "Sadar, Dinajpur",
+		"about": "Siam studies agricultural engineering and tests low-cost irrigation ideas for small farms. He is learning how sensors, water pumps, and careful field measurements can improve crop growth. He wants to create farming solutions that use less water and remain affordable for rural producers."
+	},
+	{
+		"id": 27,
+		"name": "Orin Saha",
+		"slug": "orin-saha",
+		"university": "Jagannath University",
+		"contactNumber": "+880 1817-901227",
+		"address": "Old Dhaka, Dhaka",
+		"about": "Orin studies history and collects oral stories from older residents of historic neighborhoods. He believes personal memories add important details that official records sometimes leave out. He hopes to preserve these voices through careful interviews, community archives, and engaging historical writing."
+	},
+	{
+		"id": 28,
+		"name": "Khadija Begum",
+		"slug": "khadija-begum",
+		"university": "Asian University for Women",
+		"contactNumber": "+880 1917-012328",
+		"address": "Khulshi, Chattogram",
+		"about": "Khadija studies development economics and mentors school students in mathematics on weekends. Teaching has helped her understand how confidence, resources, and patient guidance influence learning. She hopes to work on education programs that give talented students more opportunities to succeed."
+	},
+	{
+		"id": 29,
+		"name": "Zubair Hossain",
+		"slug": "zubair-hossain",
+		"university": "University of Asia Pacific",
+		"contactNumber": "+880 1617-123429",
+		"address": "Green Road, Dhaka",
+		"about": "Zubair is a civil engineering student who is interested in safer, climate-aware urban transport. He studies road design, pedestrian safety, and ways to make public transit more dependable. His ambition is to help cities grow while keeping daily travel affordable and environmentally responsible."
+	},
+	{
+		"id": 30,
+		"name": "Anika Tasnim",
+		"slug": "anika-tasnim",
+		"university": "University of Liberal Arts Bangladesh",
+		"contactNumber": "+880 1517-234530",
+		"address": "Mohammadpur, Dhaka",
+		"about": "Anika studies journalism and creates thoughtful profiles of people working in creative industries. She enjoys researching a subject carefully and shaping interviews into clear, engaging narratives. She wants to become a journalist who gives emerging artists and overlooked communities a respectful public platform."
+	}
+]

@@ -1,0 +1,82 @@
+import React from 'react';
+import Child from './child';
+import State from './state';
+import NameState from './nameState';
+import Map from './map';
+import Filter from './filter';
+import Apiholder from '../apiholder';
+
+function PersonInfo(){
+  return (
+    <p className="text-2xl text-white font-bold text-center">
+      SWE
+    </p>
+  );
+}
+
+
+const HomePage = () => {
+
+    const userName = "Ismail Hossain Fahim";
+    return (
+        <div>
+            <div className="App">
+      <h1 className='bg-white text-2xl text-orange-400 text-center mt-7'>This is week-01 </h1>
+      <h1 className="text-xl text-center text-blue-200">This is parent component</h1>
+      <header className="App-header">
+        <p className ="text-white text-5xl font-bold bg-green-900">
+          Ismail Hossain Fahim
+        </p>
+          <p className ="text-white text-2xl font-bold bg-red-300">
+         Hello {userName}
+        </p>
+
+        {/* {using PersonInfo component} */}
+        <PersonInfo/>
+
+        <p className="text-2xl text-white font-bold text-center">
+          23-50009-1
+        </p>
+      </header>
+
+        {/* sending data to child component */}
+      <div>
+          <Child
+          textColor =" text-center text-5xl text-pink-500"
+          heading="Hello from child component"
+          headingColor ="text-2xl text-white font-bold text-center"
+
+          />
+      </div>
+
+      {/* {using state component} */}
+      <div>
+        <State/>
+        <NameState/>
+      </div>
+
+      {/* {using map component} */}
+      <div>
+        <Map
+        text="This is a map component"
+        />
+      </div>
+
+      {/* this is filter component */}
+      <div>
+        <Filter
+        text="This is a filter component"
+        />
+      </div>
+
+      {/* loding fake api  */}
+      <div>
+        <Apiholder text="This is a fake API component"/>
+      </div>
+    </div>
+
+        </div>
+    );
+};
+
+export default HomePage;

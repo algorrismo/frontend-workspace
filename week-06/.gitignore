@@ -40,12 +40,3 @@ atlas-credentials.env
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-
-# Workspace projects and local recovery backups
-node_modules/
-.next/
-build/
-dist/
-out/
-coverage/
-recovery-backup-*/

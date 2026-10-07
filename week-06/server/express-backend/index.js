@@ -6,10 +6,10 @@ import { ObjectId } from "mongodb";
 
 dotenv.config();
 
-const app = express();
-
-app.use(cors());
-app.use(express.json());
+//“Express, use this middleware for incoming requests.”
+const app = express(); //?“Add this middleware to my Express server.”
+app.use(cors());//? Cross-Origin Resource Sharing
+app.use(express.json()); //?allow Express to read JSON data.
 
 
 const mongoClient = new MongoClient(process.env.MONGODB_URI);
@@ -20,26 +20,35 @@ async function startServer() {
     await mongoClient.connect();
     console.log("Connected to MongoDB");
 
+    //Select the database
     const db =mongoClient.db(process.env.MONGODB_NAME);
 
+    //Select the collection/ creating the collection if it doesn't exist
     const usersCollection = db.collection("curd-users");
 
+    //home page will some this
+    //*req -> coming from the client. Client → Server
+    //*res -> going back to the client. Server → Client
     app.get("/",async(req,res)=>{
       res.send("Your crud Server is running!");
     })
 
     //* Lets get users
+    //   [
+    // { name: "Ismail" },
+    // { name: "John" }
+    //     ]
     app.get("/users",async(req,res)=>{
       const users = await usersCollection.find().toArray();
-      res.json(users);
+      res.json(users); //sends that array to the frontend.
     })
 
-    //* Lets get a single user by ID
+    //* Lets get a single user by ID(dynamic value)
     app.get("/users/:id",async(req,res)=>{
       // const users = await usersCollection.find().toArray();
       // res.json(users);
       try{
-        const userID = req.params.id; //dynamic ID
+        const userID = req.params.id; //dynamic ID, JS string
         const user = await usersCollection.findOne(
           { _id: new ObjectId(userID) }
         );

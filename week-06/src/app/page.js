@@ -26,7 +26,6 @@ export default function Home() {
         console.error("Error fetching users:", error);
       }
     }
-
     //?When the component loads, execute fetchUsers().
     fetchUsers();
   }, []); //*dependency array.

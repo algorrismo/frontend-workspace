@@ -89,12 +89,12 @@ async function startServer() {
 
     //* Lets update a user
     app.put("/users/:id", async (req, res) => {
-  try {
-    const id = req.params.id;
+    try {
+      const id = req.params.id;
 
-    const updatedUser = req.body;
+      const updatedUser = req.body;
 
-    const result = await usersCollection.updateOne(
+      const result = await usersCollection.updateOne(
       {
         _id: new ObjectId(id),
       },

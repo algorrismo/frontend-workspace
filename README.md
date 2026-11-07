@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Frontend Workspace
 
-## Getting Started
+A collection of frontend projects organized by week. Each folder is a separate application with its own dependencies and scripts.
 
-First, run the development server:
+## Projects
+
+| Folder | Technology |
+| --- | --- |
+| [week-01](week-01/) | React (Create React App) |
+| [week-02](week-02/) | React and Vite |
+| [week-03](week-03/) | Next.js |
+| [week-04](week-04/) | Next.js and Supabase |
+| [week-05](week-05/) | Next.js |
+| [week-06](week-06/) | Next.js, with a separate Express backend |
+| [week-07](week-07/) | Next.js and NextAuth |
+
+## Getting started
+
+Install Node.js and npm, then install dependencies inside the project you want to run:
 
 ```bash
+cd week-02  # Replace with the desired week
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+For `week-01`, use `npm start` instead of `npm run dev`. Check each project's README and `package.json` for its available scripts and any additional setup. Some projects require environment variables or a separate backend; keep credentials and `.env` files private.
